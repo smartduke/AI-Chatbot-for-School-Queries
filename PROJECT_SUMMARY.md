@@ -7,9 +7,9 @@
 ## 🎯 Project Overview
 
 **Name**: AI Chatbot for School Queries  
-**Version**: 1.0.0  
+**Version**: 1.1.0  
 **License**: MIT  
-**Tech Stack**: Python, Streamlit, OpenAI GPT-4o-mini  
+**Tech Stack**: Python, Streamlit, OpenAI GPT-5  
 **Status**: Production Ready ✅
 
 ---
@@ -555,12 +555,19 @@ Built with:
 
 ## 📅 Version History
 
+**v1.1.0** (October 2025)
+- Upgraded to GPT-5 (latest OpenAI model)
+- Smart parameter handling for GPT-5/o1 models
+- Auto-detection of model-specific parameters
+- Backward compatible with GPT-4 models
+- Enhanced error handling
+- Production ready
+
 **v1.0.0** (October 2025)
 - Initial release
 - Complete feature set
 - Full documentation
 - Learning guide
-- Production ready
 
 ---
 

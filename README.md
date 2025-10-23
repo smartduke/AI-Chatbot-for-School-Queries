@@ -4,7 +4,7 @@ An intelligent AI-powered chatbot application that helps students, parents, and 
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28.1-red.svg)
-![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-green.svg)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--5-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## 📋 Table of Contents
@@ -27,7 +27,7 @@ An intelligent AI-powered chatbot application that helps students, parents, and 
 ## ✨ Features
 
 ### Core Functionality
-- 🤖 **AI-Powered Responses**: Natural language conversations using OpenAI GPT-4o-mini
+- 🤖 **AI-Powered Responses**: Natural language conversations using OpenAI GPT-5 (latest model)
 - 📅 **School Schedule Management**: View daily schedules and class timings
 - 📚 **Homework Tracking**: Check assignments and due dates
 - 🎉 **Event Information**: Get details about upcoming school events
@@ -177,7 +177,7 @@ SCHOOL_SCHEDULE = {
 # Update events
 UPCOMING_EVENTS = [
     {
-        "date": "2024-01-15",
+        "date": "2025-01-15",
         "event": "Your Event Name",
         "time": "Event Time",
         "location": "Event Location"
@@ -280,7 +280,7 @@ ai-chatbot-school-queries/
 │   ├── COMPLETE_LEARNING_GUIDE.md   # Comprehensive tutorial
 │   ├── COMPLETE_LEARNING_GUIDE.pdf  # PDF version
 │   ├── QUICK_REFERENCE.md           # Quick reference card
-│   └── BLOG_ARTICLE.md              # Promotional blog post
+│   
 │
 ├── assets/                     # Static assets (images, icons)
 │   └── (screenshots, logos)
@@ -314,7 +314,6 @@ ai-chatbot-school-queries/
 - **`COMPLETE_LEARNING_GUIDE.md`**: 20-chapter comprehensive tutorial
 - **`COMPLETE_LEARNING_GUIDE.pdf`**: Printable PDF version
 - **`QUICK_REFERENCE.md`**: One-page quick reference
-- **`BLOG_ARTICLE.md`**: Marketing/promotional content
 
 #### 🎨 `/assets/` - Static Files
 - Screenshots, logos, and other media files
@@ -371,8 +370,9 @@ st.markdown("""
 In `src/config.py`, update:
 
 ```python
-MODEL = "gpt-4o-mini"  # Options: "gpt-3.5-turbo", "gpt-4", "gpt-4o-mini"
-TEMPERATURE = 0.7      # Range: 0.0 to 1.0 (higher = more creative)
+MODEL = "gpt-5"        # Options: "gpt-5", "gpt-5-mini", "gpt-4o", "gpt-4o-mini"
+# Note: GPT-5 and o1 models use default temperature (1.0)
+# GPT-4 models support: TEMPERATURE = 0.7  # Range: 0.0 to 1.0
 MAX_TOKENS = 1000      # Response length limit
 ```
 

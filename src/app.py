@@ -243,15 +243,26 @@ def get_openai_response(user_message, context="", max_retries=3):
             Context: {context}
             """
             
-            response = client.chat.completions.create(
-                model=config.MODEL,
-                messages=[
+            # Prepare API call parameters
+            api_params = {
+                "model": config.MODEL,
+                "messages": [
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_message}
-                ],
-                max_tokens=config.MAX_TOKENS,
-                temperature=config.TEMPERATURE
-            )
+                ]
+            }
+            
+            # GPT-5 and o1 models have specific parameter requirements
+            if config.MODEL.startswith("gpt-5") or config.MODEL.startswith("o1"):
+                # GPT-5/o1 uses max_completion_tokens and doesn't support custom temperature
+                api_params["max_completion_tokens"] = config.MAX_TOKENS
+                # temperature must be 1 (default) for GPT-5, so we don't set it
+            else:
+                # Older models use max_tokens and support custom temperature
+                api_params["max_tokens"] = config.MAX_TOKENS
+                api_params["temperature"] = config.TEMPERATURE
+            
+            response = client.chat.completions.create(**api_params)
             
             return response.choices[0].message.content
             

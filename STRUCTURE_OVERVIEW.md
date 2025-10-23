@@ -23,7 +23,7 @@
 │   ├── COMPLETE_LEARNING_GUIDE.md  (20-chapter tutorial)
 │   ├── COMPLETE_LEARNING_GUIDE.pdf (PDF version)
 │   ├── QUICK_REFERENCE.md          (Quick lookup)
-│   └── BLOG_ARTICLE.md             (Marketing content)
+│   
 │
 ├── 🎨 assets/                 ← Images & media
 │
@@ -72,8 +72,9 @@ Read: `guides/QUICK_REFERENCE.md`
 ✅ **Professional** - Industry-standard layout  
 ✅ **Educational** - Clear learning path  
 ✅ **Maintainable** - Easy to update  
+✅ **GPT-5 Compatible** - Latest AI technology
 
 ---
 
-**Made with ❤️ for education**
+**Made with ❤️ for education • Powered by GPT-5**
 

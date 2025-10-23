@@ -2532,7 +2532,7 @@ if len(context) > 1000:
 
 **Cost Calculation:**
 
-**gpt-4o-mini Pricing (as of 2024):**
+**GPT-5 Pricing (as of 2025):**
 - Input: $0.000150 per 1K tokens
 - Output: $0.000600 per 1K tokens
 
@@ -2584,11 +2584,11 @@ HOMEWORK = {
     "Math": {
         "assignment": "Complete exercises 1-20",
         "page": 45,
-        "due_date": "2024-10-25"
+        "due_date": "2025-10-25"
     },
     "English": {
         "assignment": "Write essay on Shakespeare",
-        "due_date": "2024-10-27"
+        "due_date": "2025-10-27"
     }
 }
 ```
@@ -2663,19 +2663,19 @@ for day, periods in SCHOOL_SCHEDULE.items():
 HOMEWORK_ASSIGNMENTS = {
     "Math": {
         "assignment": "Complete exercises 1-20 on page 45",
-        "due_date": "2024-10-25",
+        "due_date": "2025-10-25",
         "points": 20,
         "class": "Algebra II"
     },
     "English": {
         "assignment": "Write a 500-word essay on Shakespeare's influence",
-        "due_date": "2024-10-27",
+        "due_date": "2025-10-27",
         "points": 50,
         "class": "English Literature"
     },
     "Science": {
         "assignment": "Lab report on chemical reactions",
-        "due_date": "2024-10-28",
+        "due_date": "2025-10-28",
         "points": 30,
         "class": "Chemistry"
     }
@@ -2688,21 +2688,21 @@ HOMEWORK_ASSIGNMENTS = {
 UPCOMING_EVENTS = [
     {
         "name": "Science Fair",
-        "date": "2024-11-15",
+        "date": "2025-11-15",
         "time": "2:00 PM - 5:00 PM",
         "location": "Gymnasium",
         "description": "Annual science fair showcasing student projects"
     },
     {
         "name": "Parent-Teacher Conference",
-        "date": "2024-11-20",
+        "date": "2025-11-20",
         "time": "4:00 PM - 7:00 PM",
         "location": "Classrooms",
         "description": "Meet with teachers to discuss student progress"
     },
     {
         "name": "Winter Break",
-        "date": "2024-12-20 to 2025-01-05",
+        "date": "2025-12-20 to 2026-01-05",
         "description": "School closed for winter holidays"
     }
 ]

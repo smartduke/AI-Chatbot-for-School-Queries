@@ -18,18 +18,33 @@ MAX_TOKENS = 1000
 TEMPERATURE = 0.7
 
 # Model Configuration
-# Available models (as of October 2025):
-# - "gpt-4o" - Latest GPT-4 Optimized (most capable, balanced)
-# - "gpt-4o-mini" - Faster, cheaper version
-# - "gpt-4-turbo" - Previous generation turbo
-# - "gpt-4" - Standard GPT-4
-# - "o1-preview" - Advanced reasoning model
-# - "o1-mini" - Faster reasoning model
+# Official OpenAI Model Names (October 2025)
+# Reference: https://platform.openai.com/docs/quickstart
 
-# Current model in use
-MODEL = "gpt-4o"  # Using latest GPT-4 Optimized model
+# Latest Models (GPT-5 Series):
+# - "gpt-5" - Latest GPT-5 (most capable, multimodal)
+# - "gpt-5-mini" - Smaller, faster GPT-5 (affordable)
 
-# Alternative models (uncomment to switch)
-# MODEL = "o1-preview"  # For advanced reasoning tasks
-# MODEL = "gpt-4o-mini"  # For faster/cheaper responses
-# MODEL = "gpt-4-turbo"  # Previous generation
+# GPT-4 Models:
+# - "chatgpt-4o-latest" - Latest GPT-4 Optimized (auto-updates)
+# - "gpt-4o" - GPT-4 Optimized (multimodal, 128K context)
+# - "gpt-4o-mini" - Smaller, faster GPT-4o
+
+# Reasoning Models (for complex logic):
+# - "o1-preview" - Advanced reasoning (128K context)
+# - "o1-mini" - Faster reasoning (128K context)
+
+# Legacy Models:
+# - "gpt-4-turbo" - Previous generation
+# - "gpt-4" - Original GPT-4
+
+# CURRENT MODEL IN USE
+MODEL = "gpt-5"  # Latest GPT-5 model (as per OpenAI docs)
+
+# Alternative model options (uncomment to switch):
+# MODEL = "gpt-5-mini"          # Faster & cheaper GPT-5
+# MODEL = "chatgpt-4o-latest"   # Auto-updates to latest GPT-4
+# MODEL = "gpt-4o"              # Stable GPT-4 Optimized
+# MODEL = "gpt-4o-mini"         # Faster & cheaper GPT-4
+# MODEL = "o1-preview"          # Best for complex reasoning
+# MODEL = "o1-mini"             # Faster reasoning

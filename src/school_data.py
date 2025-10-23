@@ -69,31 +69,31 @@ SCHOOL_SCHEDULE = {
 # Upcoming Events
 UPCOMING_EVENTS = [
     {
-        "date": "2024-01-15",
+        "date": "2025-01-15",
         "event": "Parent-Teacher Conference",
         "time": "6:00 PM - 8:00 PM",
         "location": "Main Auditorium"
     },
     {
-        "date": "2024-01-20",
+        "date": "2025-01-20",
         "event": "Science Fair",
         "time": "9:00 AM - 3:00 PM",
         "location": "Gymnasium"
     },
     {
-        "date": "2024-01-25",
+        "date": "2025-01-25",
         "event": "School Dance",
         "time": "7:00 PM - 10:00 PM",
         "location": "Cafeteria"
     },
     {
-        "date": "2024-02-01",
+        "date": "2025-02-01",
         "event": "Basketball Tournament",
         "time": "4:00 PM - 7:00 PM",
         "location": "School Gym"
     },
     {
-        "date": "2024-02-10",
+        "date": "2025-02-10",
         "event": "Career Day",
         "time": "9:00 AM - 2:00 PM",
         "location": "Various Classrooms"
