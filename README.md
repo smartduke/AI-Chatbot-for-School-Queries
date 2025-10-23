@@ -208,18 +208,24 @@ MAX_TOKENS = 1000
 
 ### Running the Application
 
-#### Method 1: Using Streamlit Command
+#### Method 1: Using Main Entry Point (Recommended)
 
 ```bash
-streamlit run app.py
+python run_app.py
+```
+
+#### Method 2: Using Streamlit Command
+
+```bash
+streamlit run src/app.py
 ```
 
 The app will automatically open in your default browser at `http://localhost:8501`
 
-#### Method 2: Using the Launcher Script
+#### Method 3: Using Internal Launcher
 
 ```bash
-python run.py
+python src/run.py
 ```
 
 ### Using the Chatbot
@@ -258,34 +264,75 @@ python run.py
 ```
 ai-chatbot-school-queries/
 │
-├── app.py                      # Main Streamlit application
-├── config.py                   # Configuration settings
-├── school_data.py             # School information and data
+├── src/                        # Source code directory
+│   ├── __init__.py            # Package initializer
+│   ├── app.py                 # Main Streamlit application
+│   ├── config.py              # Configuration settings
+│   ├── school_data.py         # School information and data
+│   └── run.py                 # Internal launcher script
+│
+├── docs/                       # Documentation files
+│   ├── SETUP.md               # Quick setup guide
+│   ├── CONTRIBUTING.md        # Contribution guidelines
+│   └── GITHUB_UPLOAD_GUIDE.md # GitHub upload instructions
+│
+├── guides/                     # Learning materials
+│   ├── COMPLETE_LEARNING_GUIDE.md   # Comprehensive tutorial
+│   ├── COMPLETE_LEARNING_GUIDE.pdf  # PDF version
+│   ├── QUICK_REFERENCE.md           # Quick reference card
+│   └── BLOG_ARTICLE.md              # Promotional blog post
+│
+├── assets/                     # Static assets (images, icons)
+│   └── (screenshots, logos)
+│
+├── run_app.py                 # Main entry point
 ├── requirements.txt           # Python dependencies
-├── run.py                     # Launcher script
 ├── README.md                  # This file
+├── LICENSE                    # MIT License
 ├── .env                       # Environment variables (create this)
 ├── .gitignore                 # Git ignore rules
-├── chat_history.pkl           # Auto-generated chat history (ignored by git)
+├── chat_history.pkl           # Auto-generated chat history
 │
-└── (virtual environment)      # Optional: venv/
+└── venv/                      # Virtual environment (optional)
 ```
 
-### File Descriptions
+### Directory Descriptions
 
-- **app.py**: Main application with UI, chat logic, and API integration
-- **config.py**: Centralized configuration for school info and AI settings
-- **school_data.py**: Sample school data (schedules, events, homework, policies)
-- **requirements.txt**: All Python package dependencies
-- **run.py**: Simple launcher script with dependency checking
-- **.env**: Environment variables (API keys) - **NOT in repository**
-- **chat_history.pkl**: Automatically saved chat conversations
+#### 📂 `/src/` - Source Code
+- **`__init__.py`**: Python package initializer
+- **`app.py`**: Main Streamlit application with UI and chat logic
+- **`config.py`**: Centralized configuration (school info, AI settings)
+- **`school_data.py`**: Sample data (schedules, events, homework, policies)
+- **`run.py`**: Internal launcher with dependency checks
+
+#### 📚 `/docs/` - Documentation
+- **`SETUP.md`**: Quick start guide for installation
+- **`CONTRIBUTING.md`**: Guidelines for contributors
+- **`GITHUB_UPLOAD_GUIDE.md`**: Step-by-step GitHub upload instructions
+
+#### 📖 `/guides/` - Learning Materials
+- **`COMPLETE_LEARNING_GUIDE.md`**: 20-chapter comprehensive tutorial
+- **`COMPLETE_LEARNING_GUIDE.pdf`**: Printable PDF version
+- **`QUICK_REFERENCE.md`**: One-page quick reference
+- **`BLOG_ARTICLE.md`**: Marketing/promotional content
+
+#### 🎨 `/assets/` - Static Files
+- Screenshots, logos, and other media files
+
+#### 🔧 Root Files
+- **`run_app.py`**: Main entry point to start the application
+- **`requirements.txt`**: Python package dependencies
+- **`README.md`**: Project overview and documentation
+- **`LICENSE`**: MIT License text
+- **`.env`**: Environment variables (not in repo, create manually)
+- **`.gitignore`**: Git ignore patterns
+- **`chat_history.pkl`**: Saved conversations (auto-generated)
 
 ## 🎨 Customization
 
 ### Changing School Information
 
-1. Open `config.py`
+1. Open `src/config.py`
 2. Update the school configuration section:
    ```python
    SCHOOL_NAME = "Your School Name"
@@ -296,7 +343,7 @@ ai-chatbot-school-queries/
 
 ### Updating School Data
 
-1. Open `school_data.py`
+1. Open `src/school_data.py`
 2. Modify the data structures:
    - `SCHOOL_SCHEDULE`: Weekly class schedules
    - `UPCOMING_EVENTS`: School events and activities
@@ -306,7 +353,7 @@ ai-chatbot-school-queries/
 
 ### Customizing UI Colors
 
-Edit the CSS section in `app.py` (lines 20-88):
+Edit the CSS section in `src/app.py` (around line 20-88):
 
 ```python
 st.markdown("""
@@ -321,7 +368,7 @@ st.markdown("""
 
 ### Changing AI Model
 
-In `config.py`, update:
+In `src/config.py`, update:
 
 ```python
 MODEL = "gpt-4o-mini"  # Options: "gpt-3.5-turbo", "gpt-4", "gpt-4o-mini"
@@ -393,7 +440,19 @@ ModuleNotFoundError: No module named 'streamlit'
 pip install -r requirements.txt
 ```
 
-**3. Chat History Error**
+**3. Import Error with src Module**
+```
+ModuleNotFoundError: No module named 'config'
+```
+**Solution:**
+```bash
+# Make sure you're running from the project root
+python run_app.py
+# OR
+streamlit run src/app.py
+```
+
+**4. Chat History Error**
 ```
 Error loading chat history
 ```
@@ -402,10 +461,10 @@ Error loading chat history
 # Delete the corrupted file
 rm chat_history.pkl
 # Restart the app
-streamlit run app.py
+python run_app.py
 ```
 
-**4. Connection Timeout**
+**5. Connection Timeout**
 ```
 Error after 3 attempts: Connection timeout
 ```
@@ -415,7 +474,7 @@ Error after 3 attempts: Connection timeout
 - Try again after a few minutes
 - Check firewall settings
 
-**5. Import Errors**
+**6. Import Errors**
 ```
 ImportError: cannot import name 'X' from 'Y'
 ```
