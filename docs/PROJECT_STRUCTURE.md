@@ -26,7 +26,7 @@ AI-Chatbot-for-School-Queries/
 │   ├── COMPLETE_LEARNING_GUIDE.md # 20-chapter tutorial
 │   ├── COMPLETE_LEARNING_GUIDE.pdf# PDF version of guide
 │   ├── QUICK_REFERENCE.md         # One-page reference
-│   └── BLOG_ARTICLE.md            # Marketing content
+│   
 │
 ├── 📂 assets/                      # Static Assets
 │   └── (screenshots, logos, etc.)
@@ -230,19 +230,6 @@ The `guides/` directory contains educational content for learning purposes.
 - **Size**: ~450 lines
 - **Format**: Markdown
 - **Audience**: All users (quick lookup)
-
-### `BLOG_ARTICLE.md`
-- **Purpose**: Marketing and promotional content
-- **Content**:
-  - Project overview
-  - Benefits and features
-  - Use cases
-  - Pricing suggestions
-  - Call to action
-  - FAQ
-- **Size**: ~650 lines
-- **Format**: Markdown (blog-ready)
-- **Audience**: Potential buyers, website visitors
 
 ---
 
