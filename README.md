@@ -612,7 +612,7 @@ If you find this project helpful, please consider:
 
 - **Status**: Active Development
 - **Version**: 1.0.0
-- **Last Updated**: October 2024
+- **Last Updated**: October 2025
 - **Maintained**: Yes
 
 ---

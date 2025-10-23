@@ -355,18 +355,21 @@ By the end of this project, you will be able to:
 
 | Component | Market Value | Included |
 |-----------|-------------|----------|
-| Full Source Code | $500-$1,000 | ✅ Yes |
-| 20-Chapter Guide | $200-$400 | ✅ Yes |
-| Exercises & Quizzes | $100-$200 | ✅ Yes |
-| Documentation | $150-$300 | ✅ Yes |
-| Quick Reference | $50-$100 | ✅ Yes |
-| **Total Value** | **$1,000-$2,000** | **All Included** |
+| Full Source Code (500+ lines) | $50+ | ✅ Yes |
+| 20-Chapter Learning Guide (6,500+ lines) | $99+ | ✅ Yes |
+| 50+ Exercises & 20+ Quizzes | $49+ | ✅ Yes |
+| Complete Documentation (9 files) | $39+ | ✅ Yes |
+| Quick Reference Card (450+ lines) | $29+ | ✅ Yes |
+| PDF Learning Materials | $29+ | ✅ Yes |
+| Email Support | $34+ | ✅ Yes |
+| Lifetime Updates | Priceless | ✅ Yes |
+| **Total Value** | **$300+** | **All Included** |
 
-### **Special Pricing:**
+### **Our Price:**
 
-~~$199~~ **Just $67**
+# **Just $19** 🎉
 
-**🎉 Launch Special:** First 50 students get it for **$47**
+**No tiers. No upsells. No hidden fees. Everything included!**
 
 **✨ 100% Money-Back Guarantee**
 If you're not satisfied within 30 days, get a full refund. No questions asked.
@@ -424,85 +427,62 @@ Yes! Lifetime access includes all future updates and improvements.
 
 ---
 
-## 🌟 Limited-Time Bonuses
+## 🎁 What's Included for $19
 
-**Order in the next 24 hours and get:**
+Everything you need in one complete package:
 
-🎁 **Bonus #1:** Video Walkthrough Series ($97 value)
-Step-by-step video demonstrations of key concepts
+### ✅ **1. Complete Application**
+- Full source code (500+ lines)
+- Production-ready quality
+- Professional project structure
+- All features working out-of-the-box
 
-🎁 **Bonus #2:** Advanced Features Guide ($47 value)
-Learn to add voice integration, notifications, and more
+### ✅ **2. Learning Materials**
+- 20-chapter comprehensive guide (6,500+ lines)
+- PDF version for offline reading
+- 50+ hands-on exercises
+- 20+ chapter quizzes
+- Quick reference card (450+ lines)
+- Detailed code explanations
 
-🎁 **Bonus #3:** Job Interview Prep Guide ($37 value)
-How to present this project in interviews
+### ✅ **3. Documentation**
+- README with setup instructions
+- Project structure guide (800+ lines)
+- Troubleshooting guide
+- Best practices documentation
+- Contributing guidelines
 
-🎁 **Bonus #4:** Certificate Template ($27 value)
-Printable certificate of completion
+### ✅ **4. Bonus Content**
+- Blog article for marketing
+- MIT License (modify & resell!)
+- All future updates
+- Email support
+- Lifetime access
 
-**Total Bonus Value: $208**
+**Total Value: $300+**  
+**You Pay: Just $19**  
+**Savings: $281+ (94% OFF!)**
 
 ---
 
 ## 📞 Ready to Start Your AI Development Journey?
 
-### **Choose Your Package:**
+### **One Simple Package - Everything Included**
 
----
+# **$19**
 
-### 🥉 **Basic Package - $47**
+✅ Complete source code  
+✅ Full learning guide (6,500+ lines)  
+✅ All documentation  
+✅ PDF materials  
+✅ Quick reference card  
+✅ Lifetime access  
+✅ All future updates  
+✅ Email support  
+✅ MIT License (resell allowed!)  
+✅ 30-day money-back guarantee  
 
-Perfect for getting started
-
-✅ Complete source code
-✅ Full learning guide (6,600+ lines)
-✅ All documentation
-✅ Quick reference card
-✅ Lifetime access
-
-[**Get Started →**](#)
-
----
-
-### 🥈 **Standard Package - $67** ⭐ Most Popular
-
-Everything you need
-
-✅ Everything in Basic
-✅ Bonus: Video walkthrough
-✅ Bonus: Advanced features guide
-✅ Priority email support
-✅ Updates for life
-
-[**Get Started →**](#)
-
----
-
-### 🥇 **Premium Package - $97**
-
-Best value for serious learners
-
-✅ Everything in Standard
-✅ Bonus: Interview prep guide
-✅ Bonus: Certificate template
-✅ 1-on-1 code review session
-✅ Lifetime support
-
-[**Get Started →**](#)
-
----
-
-### 🏫 **School/Classroom License - $399**
-
-For educators and institutions
-
-✅ Site license (up to 30 students)
-✅ All materials included
-✅ Teacher's guide & assessments
-✅ Customization support
-✅ Bulk student management
-
-[**Contact Us →**](#)
+[**Get Instant Access →**](#)
 
 ---
 
@@ -553,23 +533,27 @@ Don't miss out on this opportunity to master AI development, build an impressive
 
 The best time to start was yesterday. The next best time is now.
 
-**[Get Instant Access - Starting at $47 →](#)**
+**[Get Instant Access for Just $19 →](#)**
 
 ---
 
-### **P.S.** Limited-Time Offer
+### **P.S.** Why Only $19?
 
-The first 50 students get the Standard Package for just $47 (normally $67). Don't miss this opportunity to save $20 and start your AI development journey.
+We believe education should be accessible to everyone. At just $19, this is:
+- ✅ **Affordable** for students worldwide
+- ✅ **Less than a textbook** - no-brainer investment
+- ✅ **Risk-free** - 30-day money-back guarantee
+- ✅ **One-time payment** - lifetime access, no subscriptions
 
-**[Claim Your Spot Now →](#)**
+**[Get Started Now for $19 →](#)**
 
 ---
 
 ### **P.P.S.** Still Not Sure?
 
-Check out our free preview guide that covers the first chapter. No credit card required.
+Check out the project on GitHub - it's open source! See the quality for yourself before you buy the learning materials.
 
-**[Download Free Preview →](#)**
+**[View on GitHub →](https://github.com/smartduke/AI-Chatbot-for-School-Queries)**
 
 ---
 

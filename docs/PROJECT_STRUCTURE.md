@@ -511,7 +511,7 @@ If you're confused about the structure:
 
 ---
 
-**Last Updated**: October 2024  
+**Last Updated**: October 2025
 **Version**: 1.0.0  
 **Maintainer**: Smart Duke
 
