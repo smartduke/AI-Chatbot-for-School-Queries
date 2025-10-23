@@ -582,16 +582,6 @@ Potential features for future versions:
 - 📅 Calendar integration (Google Calendar)
 - 🤖 Advanced AI features (sentiment analysis, personalization)
 
-## 📞 Contact
-
-**Project Maintainer**: [Your Name]
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-
-**Project Link**: [https://github.com/yourusername/ai-chatbot-school-queries](https://github.com/yourusername/ai-chatbot-school-queries)
-
 ## 🙏 Acknowledgments
 
 - [OpenAI](https://openai.com/) for providing the GPT API
