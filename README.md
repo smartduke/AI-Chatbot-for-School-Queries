@@ -76,7 +76,8 @@ An intelligent AI-powered chatbot application that helps students, parents, and 
 
 ## 🎥 Demo
 
-### Screenshots
+### Screenshot
+<img width="1032" height="731" alt="Screenshot 2025-10-23 at 5 21 09 PM" src="https://github.com/user-attachments/assets/4b754a2a-9844-4a81-8d21-ccad54058436" />
 
 **Main Interface**
 - Clean chat interface with avatars
